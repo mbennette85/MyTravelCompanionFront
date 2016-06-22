@@ -1,0 +1,32 @@
+<section>
+    <h3>{{text}}</h3>
+ 	<form class="form-inline">
+  		<div class="form-group">
+    		<label for="exampleInputName2">Email</label>
+    		<input type="text" class="form-control" id="exampleInputName2" placeholder="jane.doe@example.com" ng-model="account.email">
+  		</div>
+  		<div class="form-group">
+    		<label for="exampleInputEmail2">Password</label>
+    		<input type="email" class="form-control" id="exampleInputEmail2" placeholder="password" ng-model="account.password">
+  		</div>
+  		<button type="submit" class="btn btn-default" ng-click="login()">Login</button>
+	</form>
+
+
+	<!-- register form -->
+	<form class="form-inline">
+  		<div class="form-group">
+    		<label for="exampleInputName2">Email</label>
+    		<input type="text" class="form-control" id="exampleInputName2" placeholder="jane.doe@example.com" ng-model="account.email2">
+  		</div>
+  		<div class="form-group">
+    		<label for="exampleInputEmail2">Password</label>
+    		<input type="email" class="form-control" id="exampleInputEmail2" placeholder="password" ng-model="account.password2">
+  		</div>
+  		<div class="form-group">
+    		<label for="exampleInputEmail2">Password</label>
+    		<input type="email" class="form-control" id="exampleInputEmail2" placeholder="password" ng-model="account.password3">
+  		</div>
+  		<button type="submit" class="btn btn-default" ng-click="register()">Register</button>
+	</form>
+</section>
